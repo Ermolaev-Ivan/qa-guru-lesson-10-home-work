@@ -30,6 +30,7 @@ public class SystemPropertiesTests {
     }
 
     @Test
+    @Tag("properties")
     void someTest4() {
         Boolean someValue = Boolean.parseBoolean(
                 System.getProperty("someKey", "true"));
