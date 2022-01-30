@@ -21,7 +21,7 @@ public class TestBase {
         String password = System.getProperty("password");
         Configuration.remote = "https://" + login + ":" + password + "@selenoid.autotests.cloud/wd/hub";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("version", "91");
+        Configuration.browserVersion = System.getProperty("version", "90");
         Configuration.browserSize =  System.getProperty("browserSize", "1920x1080");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
