@@ -1,5 +1,6 @@
 package ivan.ermolaev.tests.properties;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -31,6 +32,7 @@ public class SystemPropertiesTests {
 
     @Test
     @Tag("properties")
+    @Disabled
     void someTest4() {
         Boolean someValue = Boolean.parseBoolean(
                 System.getProperty("someKey", "true"));
