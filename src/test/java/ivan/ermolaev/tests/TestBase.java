@@ -23,7 +23,7 @@ public class TestBase {
         Configuration.remote = "https://" + login + ":" + password + "@" + url;
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("version", "90");
-        Configuration.browserSize =  System.getProperty("browserSize", "1920x1080");
+        Configuration.browserSize =  "1920x1080";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);

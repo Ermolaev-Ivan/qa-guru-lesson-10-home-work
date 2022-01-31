@@ -16,7 +16,6 @@ public class PracticeFormTests extends TestBase{
 
 
     @Test
-    @Tag("properties")
     void formTest() {
 
         registrationPage
